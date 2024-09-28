@@ -12,6 +12,20 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        ppB: ["var(--ppB)"],
+        ppBold:['var(--ppBold)'],
+        ppEBold:['var(--ppEBold)'],
+        ppELight:['var(--ppELight)'],
+        ppLight: ['var(--ppLight)'],
+        ppMedium: ['var(--ppMedium)'],
+        ppRegular:['var(--ppRegular)'],
+        ppSemiBold:['var(--ppSemiBold)'],
+        ppThin:['var(--ppThin)']
+      },
+      textColor:{
+        primary:"var(--text-primary)"
+      }
     },
   },
   plugins: [],

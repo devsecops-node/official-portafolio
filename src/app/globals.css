@@ -5,6 +5,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --text-primary: #53cdd1;
+  --text-primaryBold: #47b2b6;
+  --primary:#53cdd1
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +27,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+html,
+body {
+  min-height: 100vh;
+  background-color: #08162A;
 }
