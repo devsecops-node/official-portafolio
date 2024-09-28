@@ -18,6 +18,7 @@ const Main = () => {
           <p className='opacity-[0.5] tracking-wide inline'>I am asphiring a software developer, i like to learn new tenologies, exceptional learning thing, reading books and enjoy work in the tech world. I am loogink work new Experiences  </p>
           <span className='text-primary  opacity-[1] font-ppBold'>to beat it.</span>
         </div>
+        <button className='px-5 py-4 outline outline-1 outline-[var(--primary)] text-primary opacity-[0.6] mt-[30px] rounded-sm text-[12px] tracking-wider transition-all duration-150 hover:opacity-[0.9]'>Check out my proyects!</button>
       </div>
     </div>
   )
