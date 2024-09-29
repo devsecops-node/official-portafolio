@@ -8,8 +8,8 @@ const Main = () => {
       <div>
         {/* <p className='text-[14px] tracking-wider text-primary opacity-[0.8]'>Hi,   my name is </p> */}
         <div className={`${styles.container}`}>
-          {loadInfo.split('').map((p) => (
-            <p className='inline text-[14px] tracking-wider text-primary opacity-[0.8]' key={p}>{p}</p>
+          {loadInfo.split('').map((p, key) => (
+            <p key={key} className='inline text-[14px] tracking-wider text-primary opacity-[0.8]' >{p}</p>
           ))}
         </div>
         <p className='text-[70px] opacity-[0.8] font-ppSemiBold tracking-tighter'>Jhordan Huaman.</p>
