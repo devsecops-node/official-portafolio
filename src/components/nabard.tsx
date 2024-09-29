@@ -22,16 +22,18 @@ const Navbard = () => {
     }
   ]
   return (
-    <nav className=' flex justify-between px-10 py-5 '>
+    <nav className='flex items-center gap-4 md:gap-0 md:items-baseline flex-col md:flex-row md:justify-between px-10 py-5 '>
       <section className=''>
         <p className='font-ppMedium'>Logo</p>
       </section>
-      <section className='flex gap-3 items-center '>
-        {links.map((link) => (
-          <Links key={link.id} id={link.id} name={link.name} />
-        ))}
+      <div className='flex gap-4 md:gap-4 flex-col md:flex-row'>
+        <section className='flex gap-3 items-center'>
+          {links.map((link) => (
+            <Links key={link.id} id={link.id} name={link.name} />
+          ))}
+        </section>
         <SeeResume />
-      </section>
+      </div>
     </nav>
   )
 }
