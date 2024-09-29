@@ -13,7 +13,6 @@ const Links = ({ name, id }: { name: string, id: number }) => {
   if (!monted) return <div>loading</div>
   else {
     aboutView = document.getElementById('About')
-    console.log(aboutView)
   }
 
   return (
