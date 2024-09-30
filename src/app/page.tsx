@@ -1,6 +1,7 @@
 import AboutView from "@/components/about";
 import ExperienceView from "@/components/experience";
-import InfoFixed from "@/components/info-fixed";
+import InfoFixedRight from "@/components/info-fixed";
+import InfoFixedLeft from "@/components/info-fixed-l";
 import PresentationView from "@/components/presentation";
 import ProyectsView from "@/components/proyects";
 import Image from "next/image";
@@ -12,7 +13,8 @@ export default function Home() {
       <AboutView />
       <ExperienceView />
       <ProyectsView/>
-      {/* <InfoFixed /> */}
+      <InfoFixedRight />
+      <InfoFixedLeft/>
     </main>
   )
 }

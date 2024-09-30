@@ -24,14 +24,17 @@ const config: Config = {
         ppThin: ['var(--ppThin)']
       },
       textColor: {
-        primary: "#53cdd1",
+        primary: "#5ae7c8",
         secundary: "#8e98a7",
         slate: "#8892b0",
-        lightest_slate: "#ccd6f6"
+        lightest_slate: "#ccd6f6",
+        light_slate: "#a8b2d1"
       },
       backgroundColor: {
         secundary: "#102240",
-        primary: "#52d2b8"
+        primary: "#52d2b8",
+        lightest_slate: "#ccd6f6",
+        light_slate: "#a8b2d1"
       }
     },
   },

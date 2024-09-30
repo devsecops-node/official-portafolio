@@ -5,7 +5,7 @@ import helpers from "@/styles/helpers.module.css"
 const Main = () => {
   const loadInfo = 'Hi,  my name is';
   return (
-    <div className="flex flex-1 justify-center items-center mx-auto max-w-[1000px] px-10">
+    <div className="flex flex-1 justify-center items-center mx-auto max-w-[1000px] px-10 sm:px-20">
       <div>
         <div className={`${styles.container}`}>
           {loadInfo.split('').map((p, key) => (
