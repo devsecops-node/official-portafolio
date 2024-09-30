@@ -1,4 +1,5 @@
 import AboutView from "@/components/about";
+import ExperienceView from "@/components/experience";
 import InfoFixed from "@/components/info-fixed";
 import PresentationView from "@/components/presentation";
 import Image from "next/image";
@@ -8,7 +9,11 @@ export default function Home() {
     <main className="relative">
       <PresentationView />
       <AboutView />
-      <InfoFixed/>
+      <ExperienceView />
+      <div id="Works" className="h-screen">
+        pqweqwe
+      </div>
+      {/* <InfoFixed /> */}
     </main>
   )
 }

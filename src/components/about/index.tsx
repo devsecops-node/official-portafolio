@@ -6,12 +6,12 @@ import styles from "@/styles/presentation.module.css"
 
 const AboutView = () => {
 
-  let { apper } = useIntersectionObserver({ observar: 'about' })
+  let { apper } = useIntersectionObserver({ observar: 'About' })
 
 
   return (
-    <div id='about' className={`h-screen flex justify-center items-center ${apper ? styles.main : "opacity-0"}`}>
-      <div id='About' hidden className={`w-[80%] md:w-[50%] gap-3 md:gap-0  flex flex-col md:flex-row`}>
+    <div id='About' className={`h-screen flex justify-center items-center ${apper ? styles.main : "opacity-0"}`}>
+      <div hidden className={`w-[80%] md:w-[50%] gap-3 md:gap-0  flex flex-col md:flex-row`}>
         <InfoAbout />
         <div className='flex justify-center items-center flex-1'>
           <Image

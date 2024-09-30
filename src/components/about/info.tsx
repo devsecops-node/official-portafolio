@@ -1,6 +1,7 @@
 import React from 'react'
 import List from './list'
 import styles from "@/styles/presentation.module.css"
+import TitleSection from '../title-section'
 
 const InfoAbout = () => {
 

@@ -14,17 +14,21 @@ const config: Config = {
       },
       fontFamily: {
         ppB: ["var(--ppB)"],
-        ppBold:['var(--ppBold)'],
-        ppEBold:['var(--ppEBold)'],
-        ppELight:['var(--ppELight)'],
+        ppBold: ['var(--ppBold)'],
+        ppEBold: ['var(--ppEBold)'],
+        ppELight: ['var(--ppELight)'],
         ppLight: ['var(--ppLight)'],
         ppMedium: ['var(--ppMedium)'],
-        ppRegular:['var(--ppRegular)'],
-        ppSemiBold:['var(--ppSemiBold)'],
-        ppThin:['var(--ppThin)']
+        ppRegular: ['var(--ppRegular)'],
+        ppSemiBold: ['var(--ppSemiBold)'],
+        ppThin: ['var(--ppThin)']
       },
-      textColor:{
-        primary:"var(--text-primary)"
+      textColor: {
+        primary: "#53cdd1",
+        secundary: "#8e98a7"
+      },
+      backgroundColor: {
+        secundary: "#102240"
       }
     },
   },
