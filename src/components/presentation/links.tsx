@@ -15,7 +15,6 @@ const Links = ({ name, id }: { name: string, id: number }) => {
   else {
     aboutView = document.getElementById(name)
   }
-
   return (
     <div className='relative'>
       <Hint label={name}>

@@ -1,11 +1,14 @@
 import React from 'react'
 import List from './list'
+import styles from "@/styles/presentation.module.css"
 
 const InfoAbout = () => {
+
+
   const skills = ["Javascipt (ES6+)", "Typescript", "React (Nextjs)", "Node.js", "Java", "Logarithms", "Linux", "DevOps+-"]
 
   return (
-    <div className='flex md:w-[50%] flex-col gap-2'>
+    <div className={`flex md:w-[50%] flex-col gap-2`}>
       <section className='flex flex-row text-[25px] opacity-[0.8] gap-2'>
         <p className='text-primary font-ppB'>01.</p>
         <div className='flex flex-row  flex-1 itmes-center gap-3'>
