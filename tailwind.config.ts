@@ -25,10 +25,13 @@ const config: Config = {
       },
       textColor: {
         primary: "#53cdd1",
-        secundary: "#8e98a7"
+        secundary: "#8e98a7",
+        slate: "#8892b0",
+        lightest_slate: "#ccd6f6"
       },
       backgroundColor: {
-        secundary: "#102240"
+        secundary: "#102240",
+        primary: "#52d2b8"
       }
     },
   },

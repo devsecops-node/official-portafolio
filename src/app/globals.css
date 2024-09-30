@@ -7,7 +7,8 @@
   --foreground: #171717;
   --text-primary: #53cdd1;
   --text-primaryBold: #47b2b6;
-  --primary:#53cdd1
+  --primary: #53cdd1;
+  --primary_1: #64ffda
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,15 +35,18 @@ body {
   min-height: 100vh;
   background-color: #08162A;
 }
-body{
+
+body {
   overflow-y: scroll;
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
   /* display: none; */
   background-color: #08162a;
   width: 5px;
   /* height: 5px; */
 }
+
 body::-webkit-scrollbar-thumb {
   background-color: #8e98a7;
   border-radius: 10px;
@@ -50,5 +54,5 @@ body::-webkit-scrollbar-thumb {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  
+
 }

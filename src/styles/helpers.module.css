@@ -1,0 +1,58 @@
+.title_1 {
+  font-size: clamp(40px, 8vw, 80px);
+}
+
+.widht_reziside {
+  width: clamp(600px, 120vw, 1000px);
+}
+
+.normal_text {
+  font-size: clamp(15px, 17px, 20px);
+}
+
+.buttons {
+  padding: 16px 20px;
+  outline: 1px solid #52d2b8;
+  color: var(--primary_1);
+  font-size: clamp(13px, 14px, 15px);
+  letter-spacing: 0.05em;
+  z-index: 99999;
+  transition: all 0.5s;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  background-color: #08162a;
+}
+.buttons1 {
+  padding: 7px 17px;
+  outline: 1px solid #52d2b8;
+  color: var(--primary_1);
+  font-size: clamp(13px, 14px, 15px);
+  letter-spacing: 0.05em;
+  z-index: 99999;
+  transition: all 0.5s;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  background-color: #08162a;
+}
+.buttons:hover,.buttons1:hover {
+  transform: translate(-5px, -5px) translateZ(2px);
+  -webkit-transform: translate(-5px, -5px) translateZ(2px);
+  -moz-transform: translate(-5px, -5px) translateZ(2px);
+  -ms-transform: translate(-5px, -5px) translateZ(2px);
+  -o-transform: translate(-5px, -5px) translateZ(2px);
+}
+

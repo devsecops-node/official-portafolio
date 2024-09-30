@@ -20,8 +20,7 @@ const InfoAbout = () => {
         </div>
       </section>
       <section className='text-[#8e98a7] text-[14px] tracking-wider'>
-        <p >Hello! My name is Jordan and I enjoy creating things Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam assumenda dolorem quisquam eaque pariatur quis tempore! Deleniti, ea architecto, officiis deserunt dolorem vero iure itaque debitis fugiat saepe ut repudiandae.</p>
-        <p className='mt-3'>Until now, i was interesing in learning more tecnical and soft skill, enjoy learning and make thing more easly. Recenly i was in a free proyect in the <span className='text-primary font-ppBold'>IEEE</span> where I had the oportunity working in <span className='text-primary font-ppBold '>Teams</span> and I develop my soft skills and my tecnical also.</p>
+        <p>I am an aspiring software engineer especially in building things (and occasionally designing) exceptional digital experiences. Currently, I'm focused on learning new things and developing my career.</p>
       </section>
       <section className='grid grid-cols-2'>
         {skills.map((s) => (
