@@ -6,8 +6,8 @@ const TitleSection = ({ sectionNumber, sectionTitle }: { sectionNumber: string, 
       <p className='text-primary font-ppB'>{sectionNumber}</p>
       <div className='flex flex-row  flex-1 itmes-center gap-3'>
         <p className='font-ppSemiBold'>{sectionTitle}</p>
-        <div className="h-full w-full flex-1 flex items-center justify-center">
-          <div className='bg-[#8e98a7] h-[1px] flex-1' />
+        <div className="h-full w-full flex-1 flex items-center justify-start">
+          <div className='bg-[#8e98a7] h-[1px] flex-1 max-w-[200px]' />
         </div>
       </div>
     </section>
