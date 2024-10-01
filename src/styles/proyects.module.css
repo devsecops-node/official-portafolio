@@ -1,4 +1,4 @@
-.card_image::after{
+.card_image::after {
   content: '';
   position: absolute;
   height: 100%;
@@ -17,6 +17,7 @@
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
 }
-.card_image:hover::after{
+
+.card_image:hover::after {
   opacity: 0;
 }

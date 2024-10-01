@@ -3,7 +3,7 @@
 }
 
 .title_2 {
-  font-size: clamp(26px, 5vw, 32px);
+  font-size: clamp(16px, 5vw, 32px);
 }
 
 .widht_reziside {
