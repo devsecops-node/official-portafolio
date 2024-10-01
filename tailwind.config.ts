@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens:{
+          desktop:"950px"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -21,7 +24,8 @@ const config: Config = {
         ppMedium: ['var(--ppMedium)'],
         ppRegular: ['var(--ppRegular)'],
         ppSemiBold: ['var(--ppSemiBold)'],
-        ppThin: ['var(--ppThin)']
+        ppThin: ['var(--ppThin)'],
+        font_mono: "'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace"
       },
       textColor: {
         primary: "#5ae7c8",
@@ -29,6 +33,7 @@ const config: Config = {
         slate: "#8892b0",
         lightest_slate: "#ccd6f6",
         light_slate: "#a8b2d1",
+        green: "#64ffda"
       },
       backgroundColor: {
         main: "#08162a",

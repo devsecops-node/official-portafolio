@@ -4,6 +4,11 @@
 
 .title_2 {
   font-size: clamp(16px, 5vw, 32px);
+  /* clamp(24px, 5vw, 28px); */
+}
+
+.title_3 {
+  font-size: clamp(10px, 5vw, 28px);
 }
 
 .widht_reziside {
@@ -126,4 +131,20 @@
   content: "▹";
   /* background-color: var(--primary_1); */
   color: var(--primary_1);
+}
+
+.bg_green::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0d2034;
+  position: absolute;
+  z-index: 20;
+  opacity: 0.9;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
