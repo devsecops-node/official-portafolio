@@ -12,7 +12,7 @@ export default function Home() {
       <PresentationView />
       <AboutView />
       <ExperienceView />
-      <ProyectsView/>
+      {/* <ProyectsView/> */}
       <InfoFixedRight />
       <InfoFixedLeft/>
     </main>

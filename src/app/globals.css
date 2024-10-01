@@ -8,7 +8,8 @@
   --text-primary: #53cdd1;
   --text-primaryBold: #47b2b6;
   --primary: #53cdd1;
-  --primary_1: #64ffda
+  --primary_1: #64ffda;
+  --slate:#8892b0
 }
 
 @media (prefers-color-scheme: dark) {
@@ -55,4 +56,9 @@ body::-webkit-scrollbar-thumb {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 
+}
+
+p {
+  font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+  ;
 }
