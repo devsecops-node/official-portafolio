@@ -12,10 +12,10 @@ const AboutView = () => {
 
   return (
     <div id='About' className={`h-screen flex justify-center items-center ${apper ? styles.main : "opacity-0"}`}>
-      <div hidden className={`w-[70%] md:w-[50%] gap-3 md:gap-0  flex flex-col md:flex-row`}>
+      <div hidden className={`w-[70%] md:w-[50%] gap-3 flex flex-col md:flex-row`}>
         <InfoAbout />
-        <div className='flex justify-center items-center flex-1 bg-main'>
-          <div className='z-0 outline outline-2 outline-[#52d2b8] rounded-sm'>
+        <div className='flex justify-center items-center ml-[20px] flex-1 bg-main'>
+          <div className={`z-0 outline outline-2 outline-[#52d2b8] rounded-sm`}>
             <Image
               src='/imagenes/linux.png'
               width={200}

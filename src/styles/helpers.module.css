@@ -113,12 +113,17 @@
   -o-transition: all 0.5s;
 }
 
-.translate_y:hover{
+.translate_y:hover {
   transform: translate(-10px, -10px) translateZ(4px);
   -webkit-transform: translate(-10px, -10px) translateZ(4px);
   -moz-transform: translate(-10px, -10px) translateZ(4px);
   -ms-transform: translate(-10px, -10px) translateZ(4px);
   -o-transform: translate(-10px, -10px) translateZ(4px);
   background-color: #08162a;
-  
+}
+
+.il_triangle::before {
+  content: "▹";
+  /* background-color: var(--primary_1); */
+  color: var(--primary_1);
 }
